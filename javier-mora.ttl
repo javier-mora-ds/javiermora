@@ -6,13 +6,14 @@
 @prefix wikidata: <http://www.wikidata.org/entity/> .
 
 # Informacion personal con vocabulario FOAF
-<http://example.org/persona/javier-mora> a foaf:Person, :Estudiante ;
+<http://example.org/persona/javier-mora-pineda> a foaf:Person, :Estudiante ;
     foaf:name "Javier Mora" ;
     foaf:mbox <mailto:jmora@dcc.uchile.cl> ;
     foaf:img <https://avatars.githubusercontent.com/u/148587948?v=4> ;
     foaf:homepage <https://www.linkedin.com/in/javiermorapineda> ;
     foaf:nick "Javier" ;
     foaf:knows <http://example.org/persona/juan-perez>, <http://example.org/persona/ana-silva> ;
+    # nota: al momento de entregar el lab no conozco ninguna IRI de alumnos del curso
     :estudiaEn wikidata:Q191708 .
 
 # Ontologia local FOAF extendidad
