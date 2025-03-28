@@ -26,3 +26,6 @@
     rdfs:range wikidata:Q3918 ;  # University class en Wikidata
     rdfs:label "estudia en"@es ;
     rdfs:comment "Indica la universidad donde estudia una persona"@es .
+
+# publicado en:
+# https://github.com/javier-mora-ds/javiermora/blob/main/javier-mora.ttl
